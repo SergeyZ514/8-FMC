@@ -1,0 +1,67 @@
+.advantages {
+   padding: 80px 0;
+   text-align: center;
+   &__title {
+      margin-bottom: 40px;
+   }
+
+   &__row {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   &__item {
+      flex: 0 0 50%;
+      min-height: 355px;
+      display: grid;
+      position: relative;
+      &_1 {
+         background: url('../img/advantages/1.jpg') center (center / cover)
+            no-repeat;
+      }
+
+      &_2 {
+         background: url('../img/advantages/2.jpg') center (center / cover)
+            no-repeat;
+      }
+
+      &_3 {
+         background: url('../img/advantages/3.jpg') center (center / cover)
+            no-repeat;
+      }
+
+      &_4 {
+         background: url('../img/advantages/4.jpg') center (center / cover)
+            no-repeat;
+      }
+
+      &_5 {
+         background: url('../img/advantages/5.jpg') center (center / cover)
+            no-repeat;
+      }
+
+      &_6 {
+         background: url('../img/advantages/6.jpg') center (center / cover)
+            no-repeat;
+      }
+   }
+
+   &__item-text {
+      max-width: 340px;
+      font-size: 23px;
+      color: rgb(255, 255, 255);
+      line-height: 26px;
+      align-self: center;
+      justify-self: center;
+      z-index: 2;
+   }
+   &__item-overlay {
+      position: absolute;
+      align-self: center;
+      justify-self: center;
+      height: 156px;
+      width: 100%;
+      background: rgba($color: #000000, $alpha: 0.44);
+      z-index: 1;
+   }
+}

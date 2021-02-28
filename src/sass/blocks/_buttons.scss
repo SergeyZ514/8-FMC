@@ -1,0 +1,18 @@
+.button {
+   display: inline-block;
+   background-color: $main_color;
+   padding: 0 45px;
+   font-size: 16px;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   text-transform: uppercase;
+   line-height: 60px;
+   border-radius: 3px;
+   &:hover {
+      background-color: darken($color: $main_color, $amount: 5%);
+      cursor: pointer;
+   }
+   &:active {
+      box-shadow: inset 0 0 8px rgba($color: #000000, $alpha: 0.45);
+   }
+}
